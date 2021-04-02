@@ -11,7 +11,7 @@ function ToDoItem(props) {
 
     return (
         <div onClick={handleClick}>
-            <li style={lineThru ? { textDecoration: 'line-through' } : { textDecoration: 'none' }}>
+            <li style={{ textDecoration: lineThru ? 'line-through' : 'none' }}>
                 {props.item}
             </li>
         </div>
